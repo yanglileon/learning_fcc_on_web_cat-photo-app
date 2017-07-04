@@ -1,0 +1,40 @@
+.container {
+    width: 300px;
+    margin: auto;
+    border: 10px solid black;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+/*.red-text {
+    color: red;
+}*/
+
+h2 {
+    font-family: Lobster, Monospace;
+}
+
+/*p {
+    font-size: 16px;
+    font-family: monospace;
+}*/
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited,a:hover,a:active  {
+    text-decoration: underline;
+}
+
+.thick-green-border {
+    border: 10px solid green;
+    /*border-width: 10px;
+    border-style: solid;
+    border-color: green;*/
+    border-radius: 50%;
+}
+
+/*.smaller-image {
+    width: 100px;
+}*/

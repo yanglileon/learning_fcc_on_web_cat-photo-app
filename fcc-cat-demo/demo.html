@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>freecodecamp学习</title>
+    <link rel="stylesheet" href="https://fonts.gdgdocs.org/css?family=Lobster" type="text/css">
+    <link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://cdn.bootcss.com/font-awesome/4.2.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/layout.css" type="text/css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-8">
+                    <h2 class="text-primary text-center">CatPhotoApp</h2>
+                </div>
+                <div class="col-xs-4">
+                    <a href="#"><img class="img-responsive thick-green-border" src="http://freecodecamp.cn/images/relaxing-cat.jpg" alt="A cute orange cat lying on its back"></a>
+                </div>
+            </div>
+            <img src="http://freecodecamp.cn/images/running-cat.jpg" alt="running-cat" class="img-responsive">
+            <div class="row">
+                <div class="col-xs-4">
+                    <button class="btn btn-block btn-primary"><i class="fa fa-thumbs-up"></i>like</button>
+                </div>
+                <div class="col-xs-4">
+                    <button class="btn btn-block btn-info"><i class="fa fa-info-circle"></i>info</button>
+                </div>
+                <div class="col-xs-4">
+                    <button class="btn btn-block btn-danger"><i class="fa fa-trash"></i>Delete</button>
+                </div>
+            </div>
+            <div class="gray-background">
+                <p>Things cats <span class="text-danger">love</span>:</p>
+                <ul>
+                    <li>cat nip</li>
+                    <li>laser pointers</li>
+                    <li>lasagna</li>
+                </ul>
+                <p>Top 3 things cats hate:</p>
+                <ol>
+                    <li>flea treatment</li>
+                    <li>thunder</li>
+                    <li>other cats</li>
+                </ol>
+            </div>
+            <form id="cat-photo-form" action="http://freecodecamp.cn/submit-cat-photo">
+                <div class="row">
+                    <div class="col-xs-6">
+                        <label><input type="radio" name="indoor-outdoor">Indoor</label>
+                    </div>
+                    <div class="col-xs-6">
+                        <label><input type="radio" name="indoor-outdoor">Outdoor</label>
+                    </div>
+                </div>
+                <div class="row">
+
+                    <div class="col-xs-4">
+                        <label><input type="checkbox" name="personality">Loving</label>
+                    </div>
+                    <div class="col-xs-4">
+                        <label><input type="checkbox" name="personality">Lazy</label>
+                    </div>
+                    <div class="col-xs-4">
+                        <label><input type="checkbox" name="personality">Energetic</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-7">
+                        <input class="form-control" type="text" placeholder="cat photo URL" required />
+                    </div>
+                    <div class="col-xs-5">
+                        <button class="btn btn-primary" type="submit"><i class="fa fa-paper-plane"></i>Submit</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
